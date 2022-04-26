@@ -1,0 +1,6 @@
+framework module Pods_QuicDisMessenger_QuicDisMessengerUITests {
+  umbrella header "Pods-QuicDisMessenger-QuicDisMessengerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

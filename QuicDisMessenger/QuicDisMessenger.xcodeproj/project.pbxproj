@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72ECCCECFFEC4CF8507F3CE9 /* Pods_QuicDisMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E40C8A8581B658CD8889F /* Pods_QuicDisMessenger.framework */; };
 		9E282225281512E900FC2A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E282224281512E900FC2A7A /* AppDelegate.swift */; };
 		9E282227281512E900FC2A7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E282226281512E900FC2A7A /* SceneDelegate.swift */; };
 		9E282229281512E900FC2A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E282228281512E900FC2A7A /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		9E282234281512EB00FC2A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E282232281512EB00FC2A7A /* LaunchScreen.storyboard */; };
 		9E28223F281512EB00FC2A7A /* QuicDisMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28223E281512EB00FC2A7A /* QuicDisMessengerTests.swift */; };
 		9E28224A281512EB00FC2A7A /* QuicDisMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E282249281512EB00FC2A7A /* QuicDisMessengerUITests.swift */; };
+		9EC6072E2817BA6800C6682C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EC6072D2817BA6800C6682C /* GoogleService-Info.plist */; };
+		E2858180E557FD582D483ABB /* Pods_QuicDisMessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E666121743C3B6A90A14D7B /* Pods_QuicDisMessengerTests.framework */; };
+		F723DFEF459B4FE403A17C9D /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46D5ACDE195CC25010DE51F /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E0427C4146B718583E3F8FB /* Pods-QuicDisMessenger-QuicDisMessengerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessenger-QuicDisMessengerUITests.release.xcconfig"; path = "Target Support Files/Pods-QuicDisMessenger-QuicDisMessengerUITests/Pods-QuicDisMessenger-QuicDisMessengerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E7F58CDC6D9F67B6756AABC /* Pods-QuicDisMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessenger.release.xcconfig"; path = "Target Support Files/Pods-QuicDisMessenger/Pods-QuicDisMessenger.release.xcconfig"; sourceTree = "<group>"; };
+		5ECD78FAA925708A502B7EF4 /* Pods-QuicDisMessengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessengerTests.release.xcconfig"; path = "Target Support Files/Pods-QuicDisMessengerTests/Pods-QuicDisMessengerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E666121743C3B6A90A14D7B /* Pods_QuicDisMessengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuicDisMessengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A663963C904DC4371E494A5 /* Pods-QuicDisMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessenger.debug.xcconfig"; path = "Target Support Files/Pods-QuicDisMessenger/Pods-QuicDisMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		9E282221281512E900FC2A7A /* QuicDisMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuicDisMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E282224281512E900FC2A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E282226281512E900FC2A7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		9E282245281512EB00FC2A7A /* QuicDisMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuicDisMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E282249281512EB00FC2A7A /* QuicDisMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicDisMessengerUITests.swift; sourceTree = "<group>"; };
 		9E28224B281512EB00FC2A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC6072D2817BA6800C6682C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B46D5ACDE195CC25010DE51F /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuicDisMessenger_QuicDisMessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D601F6CFBDEB814F2CC649 /* Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuicDisMessenger-QuicDisMessengerUITests/Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3E40C8A8581B658CD8889F /* Pods_QuicDisMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuicDisMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE92AE4DB562394FB2DCAC19 /* Pods-QuicDisMessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessengerTests.debug.xcconfig"; path = "Target Support Files/Pods-QuicDisMessengerTests/Pods-QuicDisMessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72ECCCECFFEC4CF8507F3CE9 /* Pods_QuicDisMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2858180E557FD582D483ABB /* Pods_QuicDisMessengerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F723DFEF459B4FE403A17C9D /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AC8AD6C63E3654A02EB1A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3E40C8A8581B658CD8889F /* Pods_QuicDisMessenger.framework */,
+				B46D5ACDE195CC25010DE51F /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework */,
+				6E666121743C3B6A90A14D7B /* Pods_QuicDisMessengerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E282218281512E800FC2A7A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				9E28223D281512EB00FC2A7A /* QuicDisMessengerTests */,
 				9E282248281512EB00FC2A7A /* QuicDisMessengerUITests */,
 				9E282222281512E900FC2A7A /* Products */,
+				F484ADF99A695A4CD2E8F0F2 /* Pods */,
+				7AC8AD6C63E3654A02EB1A64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +137,7 @@
 				9E282230281512EB00FC2A7A /* Assets.xcassets */,
 				9E282232281512EB00FC2A7A /* LaunchScreen.storyboard */,
 				9E282235281512EB00FC2A7A /* Info.plist */,
+				9EC6072D2817BA6800C6682C /* GoogleService-Info.plist */,
 				9E28222D281512E900FC2A7A /* QuicDisMessenger.xcdatamodeld */,
 			);
 			path = QuicDisMessenger;
@@ -131,6 +161,20 @@
 			path = QuicDisMessengerUITests;
 			sourceTree = "<group>";
 		};
+		F484ADF99A695A4CD2E8F0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A663963C904DC4371E494A5 /* Pods-QuicDisMessenger.debug.xcconfig */,
+				3E7F58CDC6D9F67B6756AABC /* Pods-QuicDisMessenger.release.xcconfig */,
+				C4D601F6CFBDEB814F2CC649 /* Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig */,
+				3E0427C4146B718583E3F8FB /* Pods-QuicDisMessenger-QuicDisMessengerUITests.release.xcconfig */,
+				DE92AE4DB562394FB2DCAC19 /* Pods-QuicDisMessengerTests.debug.xcconfig */,
+				5ECD78FAA925708A502B7EF4 /* Pods-QuicDisMessengerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E28224E281512EB00FC2A7A /* Build configuration list for PBXNativeTarget "QuicDisMessenger" */;
 			buildPhases = (
+				A151098DF5B79A692D196916 /* [CP] Check Pods Manifest.lock */,
 				9E28221D281512E800FC2A7A /* Sources */,
 				9E28221E281512E800FC2A7A /* Frameworks */,
 				9E28221F281512E800FC2A7A /* Resources */,
+				C62C55416481996E6DE284FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E282251281512EB00FC2A7A /* Build configuration list for PBXNativeTarget "QuicDisMessengerTests" */;
 			buildPhases = (
+				4225A0B60E45B37E625317A6 /* [CP] Check Pods Manifest.lock */,
 				9E282236281512EB00FC2A7A /* Sources */,
 				9E282237281512EB00FC2A7A /* Frameworks */,
 				9E282238281512EB00FC2A7A /* Resources */,
@@ -173,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E282254281512EB00FC2A7A /* Build configuration list for PBXNativeTarget "QuicDisMessengerUITests" */;
 			buildPhases = (
+				8F0E2F1C0B7896086017C1F9 /* [CP] Check Pods Manifest.lock */,
 				9E282241281512EB00FC2A7A /* Sources */,
 				9E282242281512EB00FC2A7A /* Frameworks */,
 				9E282243281512EB00FC2A7A /* Resources */,
+				54F14DE97FAA5EAE1E3C7C37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC6072E2817BA6800C6682C /* GoogleService-Info.plist in Resources */,
 				9E282234281512EB00FC2A7A /* LaunchScreen.storyboard in Resources */,
 				9E282231281512EB00FC2A7A /* Assets.xcassets in Resources */,
 				9E28222C281512E900FC2A7A /* Main.storyboard in Resources */,
@@ -256,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4225A0B60E45B37E625317A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuicDisMessengerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F14DE97FAA5EAE1E3C7C37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuicDisMessenger-QuicDisMessengerUITests/Pods-QuicDisMessenger-QuicDisMessengerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuicDisMessenger-QuicDisMessengerUITests/Pods-QuicDisMessenger-QuicDisMessengerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuicDisMessenger-QuicDisMessengerUITests/Pods-QuicDisMessenger-QuicDisMessengerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0E2F1C0B7896086017C1F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuicDisMessenger-QuicDisMessengerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A151098DF5B79A692D196916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuicDisMessenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62C55416481996E6DE284FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuicDisMessenger/Pods-QuicDisMessenger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuicDisMessenger/Pods-QuicDisMessenger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuicDisMessenger/Pods-QuicDisMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E28221D281512E800FC2A7A /* Sources */ = {
@@ -436,6 +589,7 @@
 		};
 		9E28224F281512EB00FC2A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A663963C904DC4371E494A5 /* Pods-QuicDisMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +608,7 @@
 		};
 		9E282250281512EB00FC2A7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7F58CDC6D9F67B6756AABC /* Pods-QuicDisMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +627,7 @@
 		};
 		9E282252281512EB00FC2A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE92AE4DB562394FB2DCAC19 /* Pods-QuicDisMessengerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +650,7 @@
 		};
 		9E282253281512EB00FC2A7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECD78FAA925708A502B7EF4 /* Pods-QuicDisMessengerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +673,7 @@
 		};
 		9E282255281512EB00FC2A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D601F6CFBDEB814F2CC649 /* Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +694,7 @@
 		};
 		9E282256281512EB00FC2A7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0427C4146B718583E3F8FB /* Pods-QuicDisMessenger-QuicDisMessengerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
