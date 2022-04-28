@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		9E282234281512EB00FC2A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E282232281512EB00FC2A7A /* LaunchScreen.storyboard */; };
 		9E28223F281512EB00FC2A7A /* QuicDisMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28223E281512EB00FC2A7A /* QuicDisMessengerTests.swift */; };
 		9E28224A281512EB00FC2A7A /* QuicDisMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E282249281512EB00FC2A7A /* QuicDisMessengerUITests.swift */; };
+		9EA42FEE281A39C6001C618E /* SignUpFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA42FED281A39C6001C618E /* SignUpFinishView.swift */; };
 		9EC6072E2817BA6800C6682C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EC6072D2817BA6800C6682C /* GoogleService-Info.plist */; };
 		E2858180E557FD582D483ABB /* Pods_QuicDisMessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E666121743C3B6A90A14D7B /* Pods_QuicDisMessengerTests.framework */; };
 		F723DFEF459B4FE403A17C9D /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46D5ACDE195CC25010DE51F /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework */; };
@@ -60,6 +61,7 @@
 		9E282245281512EB00FC2A7A /* QuicDisMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuicDisMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E282249281512EB00FC2A7A /* QuicDisMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicDisMessengerUITests.swift; sourceTree = "<group>"; };
 		9E28224B281512EB00FC2A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA42FED281A39C6001C618E /* SignUpFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFinishView.swift; sourceTree = "<group>"; };
 		9EC6072D2817BA6800C6682C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B46D5ACDE195CC25010DE51F /* Pods_QuicDisMessenger_QuicDisMessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuicDisMessenger_QuicDisMessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D601F6CFBDEB814F2CC649 /* Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuicDisMessenger-QuicDisMessengerUITests/Pods-QuicDisMessenger-QuicDisMessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				9E282226281512E900FC2A7A /* SceneDelegate.swift */,
 				9E282228281512E900FC2A7A /* ViewController.swift */,
 				9E28222A281512E900FC2A7A /* Main.storyboard */,
+				9EA42FED281A39C6001C618E /* SignUpFinishView.swift */,
 				9E282230281512EB00FC2A7A /* Assets.xcassets */,
 				9E282232281512EB00FC2A7A /* LaunchScreen.storyboard */,
 				9E282235281512EB00FC2A7A /* Info.plist */,
@@ -171,7 +174,6 @@
 				DE92AE4DB562394FB2DCAC19 /* Pods-QuicDisMessengerTests.debug.xcconfig */,
 				5ECD78FAA925708A502B7EF4 /* Pods-QuicDisMessengerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -417,6 +419,7 @@
 			files = (
 				9E28222F281512E900FC2A7A /* QuicDisMessenger.xcdatamodeld in Sources */,
 				9E282229281512E900FC2A7A /* ViewController.swift in Sources */,
+				9EA42FEE281A39C6001C618E /* SignUpFinishView.swift in Sources */,
 				9E282225281512E900FC2A7A /* AppDelegate.swift in Sources */,
 				9E282227281512E900FC2A7A /* SceneDelegate.swift in Sources */,
 			);

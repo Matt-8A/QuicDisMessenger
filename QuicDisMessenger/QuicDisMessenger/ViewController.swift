@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var successAccount: UILabel!
     @IBOutlet weak var emailView: UILabel!
+    @IBOutlet weak var errorLabel: UILabel!
     
     
     @IBOutlet weak var passwordText: UITextField!
@@ -35,6 +36,10 @@ class ViewController: UIViewController {
             if let _eror = error {
                 //something bad happning
                 print(_eror.localizedDescription )
+                
+                self.errorLabel.text = _eror.localizedDescription
+                
+                self.errorLabel.isHidden = false
             }else{
                 //user registered successfully
                 print("User account created")
@@ -43,6 +48,8 @@ class ViewController: UIViewController {
                 
                 self.emailView.isHidden = false
                 self.successAccount.isHidden = false
+                
+                self.performSegue(withIdentifier: "SignUpFinishView", sender: nil)
                 
                 
             }
