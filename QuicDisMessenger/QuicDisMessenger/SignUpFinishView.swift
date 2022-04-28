@@ -36,6 +36,18 @@ class SignUpFinishView: UIViewController {
         changeRequest?.displayName = usernameField.text
         
         changeRequest?.commitChanges { error in
+            if let Error = error {
+                print("Something went wrong")
+                print(Error)
+            }else{
+                let user = Auth.auth().currentUser
+                let userName = user?.displayName
+                print("Updated Username")
+                print(userName ?? String())
+                
+                self.performSegue(withIdentifier: "mainScreen", sender: nil)
+                
+            }
         
         }
             
